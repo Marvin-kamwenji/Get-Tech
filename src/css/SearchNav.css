@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.logo-header {
+    display: flex;
+}
+
+.logoImages {
+    position: relative;
+}
+
+.logo2 {
+    position: relative;
+    z-index: 1;
+}
+
+.logo1 {
+    position: absolute;
+    z-index: 2;
+    top: 7px;
+    left:2px;
+}
+
+.logo-title {
+    text-align: left;
+    margin-left: 5px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.search-Nav {
+display: flex;
+}
+
+.search-bars {
+    margin-left: 50%;
+    float:right;
+}
