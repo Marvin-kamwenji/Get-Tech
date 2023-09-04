@@ -1,6 +1,8 @@
+import { CountrySelect } from "./countrySelect";
+
 function ChangeLanguageNav(){
 return(
-    <h2>change English</h2>
+   <CountrySelect />
 );
 }
 export default ChangeLanguageNav;

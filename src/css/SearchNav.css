@@ -5,6 +5,7 @@
 
 .logo-header {
     display: flex;
+    margin-left: 20px;
 }
 
 .logoImages {
@@ -32,9 +33,23 @@
 
 .search-Nav {
 display: flex;
+width: 100%;
 }
 
 .search-bars {
     margin-left: 50%;
-    float:right;
+}
+
+.nav-icons {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.loveIcon {
+    margin-right: 10px;
+}
+
+.userIcon {
+    margin-right: 10px;
 }

@@ -5,8 +5,7 @@ import SearchNav from "../components/SearchNav";
 function HomePage() {
 return(
     <>
-      {/* <h2>Hello, this is homepage</h2>
-      <ChangeLanguageNav /> */}
+      <ChangeLanguageNav />
       <SearchNav />
       {/* <Nav />   */}
     </>

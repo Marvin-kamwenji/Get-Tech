@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.countrySelectBox {
+    width: 15%;
+    display: block;
+    float: right;
+    margin-bottom: 14px;
+}

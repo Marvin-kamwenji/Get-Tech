@@ -1,5 +1,8 @@
 import logo1 from '../assets/IsometricSquare.png';
 import logo2 from '../assets/IsometricSquare1.png';
+import loveIcon from '../assets/Icon.png';
+import userIcon from '../assets/user-02.png';
+import cartIcon from '../assets/shopping-bag-02.png';
 import '../css/SearchNav.css';
 
 function SearchNav(){
@@ -7,8 +10,8 @@ function SearchNav(){
 <div className="search-Nav">
 <div className="logo-header">
       <div className="logoImages">
-        <img src={logo1} alt="first image in the logo" className="logo1"/>
-        <img src={logo2} alt="second image in the logo" className="logo2" />
+        <img src={logo1} alt="first in the logo" className="logo1"/>
+        <img src={logo2} alt="second in the logo" className="logo2" />
       </div>
         <h2 className="logo-title">GetTech</h2>
 </div>
@@ -47,6 +50,11 @@ function SearchNav(){
         </div>
     </div>
 
+<div className="nav-icons">
+    <a href="#" className="loveIcon"><img src={loveIcon} alt="love" /></a>
+    <a href="#" className="userIcon"><img src={userIcon} alt="user"/></a>
+    <a href="#" className="cartIcon"><img src={cartIcon} alt="bag"/></a>
+</div>
 </div>
 
  )
